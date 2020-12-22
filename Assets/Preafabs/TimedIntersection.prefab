@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4037150109560244887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5375005032900971347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9d3aa806a263a43b94d38cbe60a420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _SwitchTime: 5
+  _SwitchDelay: 1
+  _IntersectionGroups: []
+--- !u!1001 &2331796143815846276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrySwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClearEntry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777229796656, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrySwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClearEntry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506777484165909, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TrySwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4037150109560244887}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: IntersectionTimer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClearEntry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778315009584, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: _OnEntryEmpty.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144725, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5631445
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144725, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0076617002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144725, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_Center.z
+      value: 0.020801812
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144725, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6029017
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000029653306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144726, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695506778502144727, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+      propertyPath: m_Name
+      value: TimedIntersection
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+--- !u!1 &5375005032900971347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7695506778502144727, guid: 2ac0fa628003ac34487d13951aa31c49, type: 3}
+  m_PrefabInstance: {fileID: 2331796143815846276}
+  m_PrefabAsset: {fileID: 0}
